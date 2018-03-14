@@ -2,6 +2,9 @@ import React from 'react';
 
 export default function InstructionsMain() {
   return (
-    <h2>Instructions - Main Content</h2>
+    <div>
+      <h2>Short Instructional Text pertaining to the application</h2>
+      <p>Short explanation that explains the image on that page</p>
+    </div>
   )
 }
