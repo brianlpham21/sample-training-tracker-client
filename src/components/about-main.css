@@ -1,11 +1,10 @@
 .main-about {
   background-color: lightGrey;
-  padding: 10px 0
+  padding: 10px 0;
 }
 
 .main-about-link {
   color: black;
-
 }
 
 .main-about-link:hover {
