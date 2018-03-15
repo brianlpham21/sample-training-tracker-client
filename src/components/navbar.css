@@ -4,18 +4,21 @@ li {
   padding: 5px;
 }
 
-a {
-  text-decoration: none;
-  color: grey
-}
-
-a:hover {
-  color: violet
-}
-
 ul {
   margin: 0;
   padding: 0;
+}
+
+button {
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 12px;
+  background-color: darkGrey
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: grey
 }
 
 .nav-bar {
