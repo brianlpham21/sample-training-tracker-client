@@ -8,8 +8,8 @@ export default function NavBar() {
     <div className='nav-bar'>
       <h2>Training Tracker</h2>
       <ul>
-        <li><Link to='/poop'><button>Register</button></Link></li>
-        <li><button>Log In</button></li>
+        <li><Link to='/register'><button>Register</button></Link></li>
+        <li><Link to='/login'><button>Log In</button></Link></li>
       </ul>
     </div>
   )
