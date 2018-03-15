@@ -11,3 +11,11 @@ ul {
   background-color: lightBlue;
   padding: 10px 0
 }
+
+.social-media-icons a {
+  color: black
+}
+
+.social-media-icons a:hover {
+  color: grey
+}
