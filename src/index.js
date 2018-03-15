@@ -6,6 +6,8 @@ import RegistrationPage from './components/registration-page';
 import LoginPage from './components/login-page';
 import About from './components/about';
 
+import UserHomePage from './components/user-home-page';
+
 // import registerServiceWorker from './registerServiceWorker';
 
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
@@ -17,6 +19,9 @@ ReactDOM.render(
       <Route exact path='/register' component={RegistrationPage} />
       <Route exact path='/login' component={LoginPage} />
       <Route exact path='/about' component={About} />
+
+      <Route exact path='/user' component={UserHomePage} />
+
     </div>
   </Router>,
   document.getElementById('root')

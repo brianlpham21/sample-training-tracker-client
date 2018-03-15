@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
+import {Field, reduxForm, focus} from 'redux-form';
 
 import {Link} from 'react-router-dom';
 
 class LoginForm extends Component {
   render() {
     return (
-      <div>
+      <form>
         <input />
-      </div>
+        <button
+            type="submit">
+            Register
+        </button>
+      </form>
     );
   }
 }
