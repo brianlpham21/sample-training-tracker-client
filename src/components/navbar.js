@@ -4,11 +4,11 @@ import './navbar.css';
 
 export default function NavBar() {
   return (
-    <div>
+    <div className='nav-bar'>
       <h2>Training Tracker</h2>
       <ul>
-        <li>Register</li>
-        <li>Login</li>
+        <li><a href='#'>Register</a></li>
+        <li><a href='#'>Login</a></li>
       </ul>
     </div>
   )

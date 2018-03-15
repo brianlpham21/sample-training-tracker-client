@@ -4,13 +4,13 @@ import './footer.css';
 
 export default function Footer() {
   return (
-    <div>
-      <h4>Copyright</h4>
+    <div className='footer'>
+      <h4>Copyright | 2018</h4>
       <ul>
-        <li>Instagram</li>
-        <li>Facebook</li>
-        <li>Twitter</li>
-        <li>Email</li>
+        <li><a href='#'>Instagram</a></li>
+        <li><a href='#'>Facebook</a></li>
+        <li><a href='#'>Twitter</a></li>
+        <li><a href='#'>Email</a></li>
       </ul>
     </div>
   )

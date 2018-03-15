@@ -1,8 +1,24 @@
 li {
-  list-style: none
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: grey
+}
+
+a:hover {
+  color: violet
 }
 
 ul {
   margin: 0;
-  padding: 0
+  padding: 0;
+}
+
+.nav-bar {
+  background-color: lightBlue;
+  padding: 10px 0
 }
