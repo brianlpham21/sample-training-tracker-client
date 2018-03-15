@@ -2,17 +2,16 @@ import React, { Component } from 'react';
 
 import Workout from './workout';
 
-class WorkoutSection extends Component {
+class MiniWorkoutLog extends Component {
   render() {
     return (
       <div>
-        <p>These are a list of the workouts!</p>
-        <Workout />
-        <Workout />
+        <h2>Routine Name</h2>
+        <p>These are a list of recent workouts!</p>
         <Workout />
       </div>
     );
   }
 }
 
-export default WorkoutSection;
+export default MiniWorkoutLog;

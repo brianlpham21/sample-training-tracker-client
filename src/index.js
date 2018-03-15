@@ -7,6 +7,7 @@ import LoginPage from './components/login-page';
 import About from './components/about';
 
 import UserHomePage from './components/user-home-page';
+import WorkoutLog from './components/workout-log';
 
 // import registerServiceWorker from './registerServiceWorker';
 
@@ -21,6 +22,7 @@ ReactDOM.render(
       <Route exact path='/about' component={About} />
 
       <Route exact path='/user' component={UserHomePage} />
+      <Route exact path='/user/workoutlog' component={WorkoutLog} />
 
     </div>
   </Router>,

@@ -6,7 +6,7 @@ class Workout extends Component {
   render() {
     return (
       <div>
-        <p>This is a list of exercises</p>
+        <p>These are the exercises in the workout:</p>
         <Exercise />
         <Exercise />
       </div>
