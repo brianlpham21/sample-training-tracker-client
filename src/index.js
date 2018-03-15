@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
-import Register from './components/Register';
-import Login from './components/Login';
-import About from './components/About';
+import RegistrationPage from './components/registration-page';
+import LoginPage from './components/login-page';
+import About from './components/about';
 
 // import registerServiceWorker from './registerServiceWorker';
 
@@ -14,8 +14,8 @@ ReactDOM.render(
   <Router>
     <div>
       <Route exact path='/' component={App} />
-      <Route exact path='/register' component={Register} />
-      <Route exact path='/login' component={Login} />
+      <Route exact path='/register' component={RegistrationPage} />
+      <Route exact path='/login' component={LoginPage} />
       <Route exact path='/about' component={About} />
     </div>
   </Router>,
