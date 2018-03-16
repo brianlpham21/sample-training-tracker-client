@@ -23,5 +23,14 @@ button:hover {
 
 .nav-bar {
   background-color: lightBlue;
-  padding: 10px 0
+  height: 100vh;
+}
+
+.container {
+  padding: 100px 0
+}
+
+.arrow-down {
+  padding: 40px 0;
+  height: 20px
 }

@@ -5,6 +5,9 @@ import './title-bar.css';
 
 export default function TitleBar() {
   return (
-      <h2 className='title-bar'>Training Tracker</h2>
+    <div className='title-bar'>
+      <Link to='/'>Back</Link>
+      <h2>Training Tracker</h2>
+    </div>
   )
 }

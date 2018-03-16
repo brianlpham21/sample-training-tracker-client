@@ -10,7 +10,7 @@ class LoginForm extends Component {
         <input />
         <button
             type="submit">
-            Register
+            Login
         </button>
       </form>
     );
