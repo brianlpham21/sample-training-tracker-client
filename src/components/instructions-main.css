@@ -1,10 +1,9 @@
 .main-instructions {
-  background-color: lightBlue;
-  /* background: lightblue url("https://www.publicdomainpictures.net/pictures/220000/velka/open-blank-notebook-black-amp-white.jpg") no-repeat fixed center; */
-  padding: 10px 0
+  /* background: white url("https://www.publicdomainpictures.net/pictures/220000/velka/open-blank-notebook-black-amp-white.jpg") no-repeat fixed center; */
+  background-color: dimGrey;
+  padding: 30px 20px 10px 20px
 }
 
 .instruction-icon {
-  height: 180px;
-  padding-top: 10px
+  height: 150px;
 }

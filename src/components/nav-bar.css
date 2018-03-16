@@ -19,6 +19,9 @@ button {
 button:hover {
   cursor: pointer;
   background-color: grey;
+}
+
+.register-button:hover, .login-button:hover {
   box-shadow: 0 0 10px white
 }
 
@@ -34,7 +37,7 @@ button:hover {
 }
 
 .container {
-  padding: 100px 0
+  padding: 150px 0
 }
 
 .arrow-down {

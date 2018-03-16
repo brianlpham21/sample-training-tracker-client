@@ -1,8 +1,15 @@
 .main-information {
-  background-color: lightGrey;
-  padding: 10px 0
+  background-color: white;
+  padding: 30px 25px 15px 25px;
+  color: #3d3d3d;
 }
 
 .main-information-icon {
-  height: 200px
+  height: 90px;
+  float: left;
+  padding: 10px
+}
+
+.main-information p {
+  clear: both;
 }

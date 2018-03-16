@@ -12,10 +12,10 @@ export default function NavBar() {
         <p>track your fitness goals and progress</p>
         <ul>
           <li>
-            <Link to='/register'><button>Register</button></Link>
+            <Link to='/register'><button className='register-button'>Register</button></Link>
           </li>
           <li>
-            <Link to='/login'><button>Log In</button></Link>
+            <Link to='/login'><button className='login-button'>Log In</button></Link>
           </li>
         </ul>
         <img src='https://www.materialui.co/materialIcons/navigation/arrow_drop_down_white_192x192.png' className='arrow-down' />
