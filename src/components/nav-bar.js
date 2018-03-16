@@ -7,7 +7,7 @@ export default function NavBar() {
   return (
     <div className='nav-bar'>
       <div className='container'>
-        <img src='https://d30y9cdsu7xlg0.cloudfront.net/png/118696-200.png' />
+        <img src='https://d30y9cdsu7xlg0.cloudfront.net/png/118696-200.png' className='main-logo'/>
         <h2>Training Tracker</h2>
         <p>track your fitness goals and progress</p>
         <ul>
@@ -18,7 +18,7 @@ export default function NavBar() {
             <Link to='/login'><button>Log In</button></Link>
           </li>
         </ul>
-        <img src='https://d30y9cdsu7xlg0.cloudfront.net/png/10897-200.png' className='arrow-down' />
+        <img src='https://www.materialui.co/materialIcons/navigation/arrow_drop_down_white_192x192.png' className='arrow-down' />
       </div>
     </div>
   )

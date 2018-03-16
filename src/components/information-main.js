@@ -6,8 +6,8 @@ export default function InformationMain() {
   return (
     <div className='main-information'>
       <img src='https://du1ux2871uqvu.cloudfront.net/sites/default/files/file/Small%20Black%20Journak.png' className='main-information-icon' />
-      <h2>Informational Text regarding Training Tracker</h2>
-      <p>Short amount of text explaining the purpose and focus of Training Tracker application</p>
+      <h2>Set & Track Your Fitness Goals</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>
     </div>
   )
 }

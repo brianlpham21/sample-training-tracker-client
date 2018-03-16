@@ -10,7 +10,7 @@ ul {
 }
 
 button {
-  padding: 12px;
+  padding: 10px;
   border-radius: 10px;
   font-size: 12px;
   background-color: darkGrey
@@ -18,12 +18,19 @@ button {
 
 button:hover {
   cursor: pointer;
-  background-color: grey
+  background-color: grey;
+  box-shadow: 0 0 10px white
 }
 
 .nav-bar {
-  background-color: lightBlue;
+  background: black url('https://www.crossfitdaedalus.com/wp-content/uploads/2015/04/Gym-Background1.png') no-repeat fixed center;
+  color: white;
   height: 100vh;
+}
+
+.main-logo {
+  background-color: white;
+  border-radius: 50%
 }
 
 .container {
