@@ -8,6 +8,7 @@ import About from './components/about';
 
 import UserHomePage from './components/user-home-page';
 import WorkoutLog from './components/workout-log';
+import EditWorkout from './components/edit-workout';
 
 // import registerServiceWorker from './registerServiceWorker';
 
@@ -23,6 +24,7 @@ ReactDOM.render(
 
       <Route exact path='/user' component={UserHomePage} />
       <Route exact path='/user/workoutlog' component={WorkoutLog} />
+      <Route exact path='/user/workoutlog/editworkout' component={EditWorkout} />
 
     </div>
   </Router>,

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import Exercise from './exercise';
 
+import {Link} from 'react-router-dom';
+
 class Workout extends Component {
   render() {
     return (
@@ -9,6 +11,7 @@ class Workout extends Component {
         <p>These are the exercises in the workout:</p>
         <Exercise />
         <Exercise />
+        <Link to='/user/workoutlog/editworkout'><button>Edit</button></Link>
       </div>
     );
   }
